@@ -1,0 +1,425 @@
+[
+  {
+    "title": "How much time do you have to estimate your app?",
+    "alias": "Time to estimate",
+    "options": [
+      {
+        "title": "Minimum",
+        "description": "You have 5-10 minutes for estimation.",
+        "assetPath": "lib/assets/walkthrough/minimum.png"
+      },
+      {
+        "title": "Optimal",
+        "description": "You have 10-15 minutes for estimation.",
+        "assetPath": "lib/assets/walkthrough/optimal.png"
+      },
+      {
+        "title": "Maximum",
+        "description": "You have 15-20 minutes for estimation.",
+        "assetPath": "lib/assets/walkthrough/maximum.png"
+      }
+    ]
+  },
+  {
+    "title": "How big is your app?",
+    "alias": "Project size",
+    "options": [
+      {
+        "title": "Small",
+        "estimate": {
+          "multiplier": "0.25",
+          "hours": "10"
+        },
+        "description": "Your app psobably has around 4-5 key feature pages (excluding any static content, sign in, sign up etc.)",
+        "assetPath": "lib/assets/walkthrough/small.png"
+      },
+      {
+        "title": "Medium",
+        "estimate": {
+          "multiplier": "0.5",
+          "hours": "10"
+        },
+        "description": "Your app probably has around 6-9 key feature pages (excluding any static content, sign in, sign up etc.)",
+        "assetPath": "lib/assets/walkthrough/medium.png"
+      },
+      {
+        "title": "Large",
+        "estimate": {
+          "multiplier": "0.75",
+          "hours": "10"
+        },
+        "description": "Your app probably has around 10-15 key feature pages (excluding any static content, sign in, sign up etc.)",
+        "assetPath": "lib/assets/walkthrough/large.png"
+      }
+    ]
+  },
+  {
+    "title": "What stage is your project in?",
+    "alias": "Stage of project",
+    "options": [
+      {
+        "title": "Initial/Sketch idea",
+        "estimate": {
+          "multiplier": "0.2",
+          "hours": "5"
+        },
+        "assetPath": "lib/assets/walkthrough/initial.png"
+      },
+      {
+        "title": "App in development",
+        "estimate": {
+          "multiplier": "0.15",
+          "hours": "5"
+        },
+        "assetPath": "lib/assets/walkthrough/dev.png"
+      },
+      {
+        "title": "App already done",
+        "estimate": {
+          "multiplier": "0.1",
+          "hours": "5"
+        },
+        "assetPath": "lib/assets/walkthrough/done.png"
+      }
+    ]
+  },
+  {
+    "title": "What level of quality are you looking for?",
+    "alias": "Quality of project",
+    "options": [
+      {
+        "title": "Prototype",
+        "estimate": {
+          "multiplier": "0.2",
+          "hours": "10"
+        },
+        "description": "1. When you want a visualization of how the app would function.\n2. When you have limited money and time but you want to show the application to stakeholders.\n3. When there is very limited technical availability.\n4. When you need an instant look and feel of the application. ",
+        "assetPath": "lib/assets/walkthrough/prototype.png"
+      },
+      {
+        "title": "MVP",
+        "estimate": {
+          "multiplier": "0.15",
+          "hours": "10"
+        },
+        "description": "1. When you have to show the customers a working app.\n2. When you have to make money out of the application.\n3. When you need a bug-free appready to be used by the world.\n4. When you need higher retention at low cost.\n5. When you wish to know the market perception to improvise the app.",
+        "assetPath": "lib/assets/walkthrough/mvp.png"
+      },
+      {
+        "title": "POC",
+        "estimate": {
+          "multiplier": "0.1",
+          "hours": "10"
+        },
+        "description": "1. When you need seed-stage funding.\n2. When you have to check if the idea works, technically.\n3. When you are aiming to share internal knowledge among team.\n4. When you want to assess project or the features’ success.ur app probably has around 10-15 key feature pages (excluding any static content, sign in, sign up etc.)",
+        "assetPath": "lib/assets/walkthrough/poc.png"
+      }
+    ]
+  },
+  {
+    "title": "What level of UI would you like?",
+    "alias": "Quality of UI",
+    "options": [
+      {
+        "title": "MVP",
+        "estimate": {
+          "multiplier": "0.1",
+          "hours": "10"
+        },
+        "description": "Minimum Viable Product. Very raw but functional, no UI designer required.",
+        "assetPath": "lib/assets/walkthrough/house.png"
+      },
+      {
+        "title": "Basic",
+        "estimate": {
+          "multiplier": "0.15",
+          "hours": "10"
+        },
+        "description": "Still quite basic but pleasing to the eye, perhaps using purchased template.",
+        "assetPath": "lib/assets/walkthrough/basic.png"
+      },
+      {
+        "title": "Polished",
+        "estimate": {
+          "multiplier": "0.2",
+          "hours": "10"
+        },
+        "description": "Professional bespoke UI design. May also have some animations and transitions etc.",
+        "assetPath": "lib/assets/walkthrough/polished.png"
+      }
+    ]
+  },
+  {
+    "type": "multiselection",
+    "title": "Which type of OS do you need?",
+    "alias": "OS support",
+    "options": [
+      {
+        "title": "iOS",
+        "estimate": {
+          "multiplier": "0.12",
+          "hours": "10"
+        },
+        "assetPath": "lib/assets/walkthrough/ios.png"
+      },
+      {
+        "title": "Android",
+        "estimate": {
+          "multiplier": "0.12",
+          "hours": "10"
+        },
+        "assetPath": "lib/assets/walkthrough/android.png"
+      }
+    ]
+  },
+  {
+    "type": "multiselection",
+    "title": "Which type of device do you need?",
+    "alias": "Platform support",
+    "options": [
+      {
+        "title": "Phone",
+        "estimate": {
+          "multiplier": "0.12",
+          "hours": "5"
+        },
+        "assetPath": "lib/assets/walkthrough/phone.png"
+      },
+      {
+        "title": "Tablet",
+        "estimate": {
+          "multiplier": "0.12",
+          "hours": "5"
+        },
+        "assetPath": "lib/assets/walkthrough/tablet.png"
+      }
+    ]
+  },
+  {
+    "type": "multiselection",
+    "title": "Does your app need a login system?",
+    "alias": "Login system",
+    "options": [
+      {
+        "title": "Email",
+        "estimate": {
+          "hours": "5"
+        },
+        "assetPath": "lib/assets/walkthrough/email.png"
+      },
+      {
+        "title": "Phone",
+        "estimate": {
+          "hours": "5"
+        },
+        "assetPath": "lib/assets/walkthrough/phone2.png"
+      }
+    ]
+  },
+  {
+    "type": "multiselection-noinfo-skip",
+    "title": "What level of Security would you prefer?",
+    "alias": "Security",
+    "options": [
+      {
+        "title": "SSL Certificate",
+        "estimate": {
+          "hours": "5"
+        },
+        "description": "The industry standard way to ensure your users data is safe during their use of your app.",
+        "assetPath": "lib/assets/walkthrough/ssl.png"
+      },
+      {
+        "title": "DoS Protection",
+        "estimate": {
+          "hours": "5"
+        },
+        "description": "For high volume app with a high public profile, you may be the target of Denial of Service attacks.",
+        "assetPath": "lib/assets/walkthrough/dos.png"
+      },
+      {
+        "title": "2FA",
+        "estimate": {
+          "hours": "5"
+        },
+        "description": "More common for financial or highly sensitive information based apps, this requires your user supplies additional information above a simple password.",
+        "assetPath": "lib/assets/walkthrough/2fa.png"
+      }
+    ]
+  },
+  {
+    "title": "In how many languages do you want your application to be available in?",
+    "alias": "Localization",
+    "options": [
+      {
+        "title": "One languauge",
+        "estimate": {
+          "hours": "5"
+        },
+        "assetPath": "lib/assets/walkthrough/one.png"
+      },
+      {
+        "title": "Bilingual",
+        "estimate": {
+          "hours": "10"
+        },
+        "assetPath": "lib/assets/walkthrough/two.png"
+      },
+      {
+        "title": "Multilingual",
+        "estimate": {
+          "hours": "15"
+        },
+        "assetPath": "lib/assets/walkthrough/multi.png"
+      }
+    ]
+  },
+  {
+    "type": "skip",
+    "title": "How would you like to monetise your app?",
+    "alias": "Monetization",
+    "options": [
+      {
+        "title": "Paid app",
+        "estimate": {
+          "hours": "3"
+        },
+        "assetPath": "lib/assets/walkthrough/paid.png"
+      },
+      {
+        "title": "In-app purchases",
+        "estimate": {
+          "hours": "2"
+        },
+        "assetPath": "lib/assets/walkthrough/inapp.png"
+      },
+      {
+        "title": "App advertising",
+        "estimate": {
+          "hours": "1"
+        },
+        "assetPath": "lib/assets/walkthrough/ads.png"
+      }
+    ]
+  },
+  {
+    "type": "multiselection-skip",
+    "title": "Will your app accept payments?",
+    "alias": "Payments",
+    "options": [
+      {
+        "title": "PayPal",
+        "estimate": {
+          "hours": "10"
+        },
+        "assetPath": "lib/assets/walkthrough/paypal.png"
+      },
+      {
+        "title": "Stripe",
+        "estimate": {
+          "hours": "10"
+        },
+        "assetPath": "lib/assets/walkthrough/stripe.png"
+      },
+      {
+        "title": "Dwolla",
+        "estimate": {
+          "hours": "10"
+        },
+        "assetPath": "lib/assets/walkthrough/dwolla.png"
+      },
+      {
+        "title": "Custom",
+        "estimate": {
+          "hours": "10"
+        },
+        "assetPath": "lib/assets/walkthrough/custom.png"
+      }
+    ]
+  },
+  {
+    "type": "multiselection-noinfo-skip",
+    "title": "Will you send Notifications to your users?",
+    "alias": "Notifications",
+    "options": [
+      {
+        "title": "Push notifications",
+        "estimate": {
+          "hours": "1"
+        },
+        "assetPath": "lib/assets/walkthrough/push.png"
+      },
+      {
+        "title": "Popup",
+        "estimate": {
+          "hours": "2"
+        },
+        "assetPath": "lib/assets/walkthrough/popup.png"
+      },
+      {
+        "title": "Deep linking",
+        "estimate": {
+          "hours": "2"
+        },
+        "assetPath": "lib/assets/walkthrough/deep.png"
+      }
+    ]
+  },
+  {
+    "type": "multiselection-noinfo-skip",
+    "title": "Social & Engagement",
+    "alias": "Social",
+    "options": [
+      {
+        "title": "Messaging",
+        "estimate": {
+          "multiplier": "0.12",
+          "hours": "5"
+        },
+        "description": "Your app needs an allowing users within the app to send messages to other account users or groups of users.",
+        "assetPath": "lib/assets/walkthrough/messaging.png"
+      },
+      {
+        "title": "Comments",
+        "estimate": {
+          "multiplier": "0.12",
+          "hours": "5"
+        },
+        "description": "Your app needs a classic forum functionality for account users or simple commenting on information.",
+        "assetPath": "lib/assets/walkthrough/forums.png"
+      },
+      {
+        "title": "Social Sharing",
+        "estimate": {
+          "multiplier": "0.12",
+          "hours": "5"
+        },
+        "description": "Your app needs an ability to share pieces of information in a controlled way on social media accounts to drive engagement.",
+        "assetPath": "lib/assets/walkthrough/social.png"
+      }
+    ]
+  },
+  {
+    "alias": "Additional",
+    "type": "additional-skip",
+    "title": "Please select aditional options"
+  },
+  {
+    "title": "What would you like to do next?",
+    "alias": "To do next",
+    "options": [
+      {
+        "title": "Order at FlutterCrew",
+        "assetPath": "lib/assets/walkthrough/order.png"
+      },
+      {
+        "title": "Share to your friends",
+        "assetPath": "lib/assets/walkthrough/share.png"
+      },
+      {
+        "title": "Save result to your device",
+        "assetPath": "lib/assets/walkthrough/save.png"
+      }
+    ]
+  }
+]

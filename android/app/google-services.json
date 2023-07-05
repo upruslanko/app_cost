@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "347411453814",
+    "firebase_url": "https://app-cost-flex.firebaseio.com",
+    "project_id": "app-cost-flex",
+    "storage_bucket": "app-cost-flex.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347411453814:android:5f05965ad1c4e6dd6dcc57",
+        "android_client_info": {
+          "package_name": "com.fluttercrew.app_cost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347411453814-biguioq2utbtlgitouhukdgmf5sag22q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz-lM3Ae8JX_5I-ei-nnP5CLHG_54rR_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347411453814-biguioq2utbtlgitouhukdgmf5sag22q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
